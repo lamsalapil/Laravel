@@ -1,0 +1,338 @@
+
+#top-header{
+    background-color: rgb(255, 255, 255);
+    padding: 5px 0 5px 0;
+}
+
+.callus i{
+    padding: 10px;
+    background-color:  rgb(251, 235, 235);
+    border-radius: 50px;
+}
+
+
+.socialmedia{
+    /* background-color: red; */
+    text-align: right;
+    margin-top: 20px;
+    
+    
+}
+
+.socialmedia i{
+    padding: 10px;
+    background-color: rgb(251, 235, 235);
+    border-radius: 50px;
+    margin: 0 10px;
+}
+
+
+
+
+
+#mainmenu{
+    background-color: rgb(253, 230, 201);
+    padding: 10px 0;
+}
+
+#mainmenu ul{
+    list-style: none;
+    /* background-color: aqua; */
+    padding: 0;
+    margin: 0;
+}
+
+#mainmenu ul li{
+    /* background-color: white; */
+    display: inline-block;
+}
+#mainmenu ul li a{
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+}
+
+#mainmenu ul li a:hover{
+    
+    background-color: rgb(105, 104, 105);
+    border-radius: 1px solid;
+    color: white;
+    
+}
+
+/* slider part */
+#sliderimg{
+    
+    max-height: 500px;
+    overflow: hidden;
+}
+
+#sliderimg img{
+    width: 100%;
+
+}
+
+
+#information{
+    margin-top: -80px;
+    border-radius: 10px;
+    display: block;
+    margin-bottom: 50px;
+    
+}
+
+#information .informationcontent{
+    background-color: rgb(247, 131, 48);
+    padding: 50px;
+    border-radius: 10px;
+}
+
+#information .informationcontent .form-control1 input{
+    height: 40px;
+    border-radius: 5px;
+}
+
+#information .informationcontent .form-control1 select{
+    border: 1px black;
+    box-shadow: 2px 1px black;
+}
+
+.submitButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+
+.submitButton input{
+    border-radius: 10px;
+    background-color: rgb(41, 87, 87);
+    font-family: arial, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+}
+
+
+/* section id:product */
+#product{
+    margin: 20px;
+    padding: 10px;
+}
+
+#product .faqlist{
+    margin-bottom: 20px;
+}
+
+#product .faqlist img{
+    width: 100%;
+    height: 200px;
+}
+
+#product .card .card-body{
+   margin: 10px;
+}
+
+/* #product .service-list{
+    box-shadow: 1px 1px 1px 1px black;
+    background-color: antiquewhite;
+    
+}
+
+
+#service .service-list img{
+    width: 100%;
+} */
+
+#Buslist{
+    margin-bottom: 20px;
+}
+
+.showmore{
+ margin: 20px 0;
+ text-align: center;
+ 
+}
+
+.showmore input{
+    background-color: antiquewhite;
+    border: 3px rgb(105, 104, 105);
+    box-shadow: 0 0 0 1px  rgb(105, 104, 105);
+    border-radius: 10px;
+    padding: 5pxs;
+    font-weight: 600;
+    color: black;
+}
+
+
+/* footer start css */
+#footer{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(248, 232, 212);
+    
+    
+}
+
+
+#footer .footer-top{
+    margin: 20px 0 50px 0;
+    
+}
+#footer .footer-top img{
+    width: 200px;
+    margin: 10px 0 30px 0;
+}
+#footer .footer-top a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+#footer .footer-center ul{
+    margin: 20px;
+}
+#footer .footer-center ul li{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-align: center;
+
+    
+}
+#footer .footer-center ul li a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+#footer .footer-center-right ul{
+    margin: 20px;
+}
+#footer .footer-center-right ul li{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-align: center;
+
+    
+}
+#footer .footer-center-right ul li a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+#footer .footer-right{
+    margin: 20px 0 20px 0;
+}
+#footer .footer-right .name{
+    float: left;
+}
+#footer .footer-right .email{
+    float: left;
+}
+#footer .footer-right .comment{
+    float: left;
+}
+
+
+#footer .black-line{
+    background-color: black;
+    padding: 1px;
+    
+}
+
+#last-footer{
+    background-color: rgb(248, 232, 212);
+
+}
+#last-footer .copyright{
+    
+    margin: 10px 0;
+}
+#last-footer .payment{
+    text-align: right;
+    margin: 10px 0;
+}
+
+
+/* route list */
+
+#routeList{
+    height: 600px;
+}
+#routeList .table{
+    text-align: center;
+}
+
+
+/* find or search part */
+
+#search{
+    height: 600px;
+}
+
+#search .bookbox{
+    border: 1px black;
+    
+}
+
+
+
+/* contact us  page*/
+#busContact{
+    height: 600px;
+    margin: 20px 0;
+    
+}
+#busContact .contactimg img{
+    
+    width: 100%;
+    
+}
+#busContact .contactname{
+    /* background-color: antiquewhite; */
+    box-shadow: 2px 0px 2px 0px black;
+    padding: 10px 0;
+}
+#busContact .contactname h5{
+    margin: 0;
+    padding: 0;
+}
+#busContact .contactname input{
+    height: 40px;
+    width: 100%;
+}
+#busContact .contactname textarea{
+    resize: none;
+    width: 100%;
+}
+#busContact .contactname .btn{
+    background-color: rgb(223, 155, 19);
+    color: aliceblue;
+    font-weight: 800;
+    letter-spacing: 2px;
+    
+}
+
+#contactus{
+    height: 150px;
+    margin: 20px 0;
+}
+#contactus div{
+    text-align: center;
+    font-size: large;
+}
+#contactus div small{
+    font-weight: 500;
+}
+#contactus div small i{
+    padding: 10px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+
+
+
+
+
+

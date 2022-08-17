@@ -1,0 +1,18 @@
+#about-body{
+    margin: 60px 0;
+    height: 600px;
+    text-align: center;
+    
+}
+
+#about-body img{
+    width: 50%;
+    display: block;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.about h1{
+    font-size: 50px;
+    color: orange;
+}
